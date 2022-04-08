@@ -1,0 +1,15 @@
+8 Step sequencer
+
+8 Steps quantized CV(1V/Oct) 0-5V
+8 Steps Gate out 0-12V
+
+Internal and external clock
+
+Clock division with output*
+
+Manual step
+
+Reset input
+
+Dimension: 3U
+
