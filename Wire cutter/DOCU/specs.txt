@@ -1,0 +1,12 @@
+Wire cutter
+
+Cuts wires at specific legthes, usefull when a lot of cables has to be preciselly cutted.
+Will be implemented an automatic length sequence calculator whenever all the wire legthes should follow a mathematical function.
+Tha machine will also indent the wire guage so it can later be removed, exposing the metal.
+
+Design is kept at minimun of features as it serves just as a tool for another project, where a lot of cables has to be prepared.
+
+Serial-com+ push button
+
+nema + stepper driver
+
