@@ -1,8 +1,0 @@
-# Datatypes (KEYWORD1)
-
-NTC	KEYWORD1
-
-# Methods and Functions (KEYWORD2)
-
-getTemperatureC KEYWORD2
-getTemperatureK KEYWORD2
