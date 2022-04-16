@@ -76,8 +76,17 @@ bool Timer::getClock(){
 		else{
 			
 			CK = true;
+			IS_CK_DONE = false;
 			clockBuffer = CurrTime() + tHigh;
 		}
 	}
 	return CK;
+}
+bool Timer::getClockEvent(){
+
+	return (!IS_CK_DONE &&Timer::getClock());
+}
+
+void Timer::done(){
+	IS_CK_DONE = true;
 }

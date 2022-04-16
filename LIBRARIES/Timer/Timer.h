@@ -28,6 +28,8 @@ class Timer{
 
 		void setClock(long period, int dt);
 		bool getClock();
+		bool getClockEvent();
+		void done();
 
 	private:
 		scaling_t scaling;
@@ -45,5 +47,6 @@ class Timer{
 		uint32_t tHigh;
 		uint32_t tLow;
 		bool CK = true;
+		bool IS_CK_DONE = false;
 };
 #endif
