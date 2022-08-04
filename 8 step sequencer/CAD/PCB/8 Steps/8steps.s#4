@@ -14428,7 +14428,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X6" device="" value="CK_SEL"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="JP7" library="pinhead" deviceset="PINHD-1X8" device=""/>
+<part name="JP7" library="pinhead" deviceset="PINHD-1X8" device="" value="POT"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="0207/2V" value="100"/>
 <part name="JP9" library="pinhead" deviceset="PINHD-1X1" device="" value="CV_OUT"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -14437,14 +14437,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
 <part name="C4" library="rcl" deviceset="C-EU" device="050-025X075" value="100n"/>
-<part name="C3" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="47u"/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="100u"/>
+<part name="C3" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="47u"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100u"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X10" device=""/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X10" device="" value="GATE/LED"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0207/2V" value="100k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0207/2V" value="1K"/>
@@ -14456,7 +14456,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0207/2V" value="100"/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X2" device="" value="TRG"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="" value="PWR"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="E5-10.5" value="100u"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100u"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
